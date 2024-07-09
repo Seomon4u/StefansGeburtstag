@@ -13,61 +13,63 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Stefans Geburtstag</h1>
-        <p className={styles.description}>
         
         <Image
-          src="/src/img/stefansgeburtstag.jpg"
+          src="/stefansgeburtstag.jpg"
           alt="shows the smash brothers logo for stefans party"
-          width={400}
-          height={500}
+          width={318}
+          height={159}
         />
-        Location
-Adresse: 
-Hauptstraße 12
-Neubau
-Niederösterreich
+        <h2>Location</h2>
+            <h3>Adresse:</h3>
+            <p>Hauptstraße 12</p>
+            <p>Neubau</p>
+          <p>Niederösterreich</p>
 
-Erreichbar mit der Bahn (S2, S7, REX) über die Station Neubau-Kreuzstetten. Vom Bahnhof ist es aber noch ein ziemlich weiter Fußweg, deshalb am besten mit einem Auto vom Bahnhof abholen lassen beziehungsweise generell Fahrgemeinschaften bilden!
+          <p>Erreichbar mit der Bahn (S2, S7, REX) über die Station Neubau-Kreuzstetten. Vom Bahnhof ist es aber noch ein ziemlich weiter Fußweg, deshalb am besten mit einem Auto vom Bahnhof abholen lassen beziehungsweise generell Fahrgemeinschaften bilden!</p>
 
-Achtung auch auf die Bahn-Sperre zwischen Praterstern und Floridsdorf!
+          <p>Achtung auch auf die Bahn-Sperre zwischen Praterstern und Floridsdorf!</p>
 
-Uhrzeit:
-15:00 - Open End
+          <p>Uhrzeit:</p>
+          <p>15:00 - Open End</p>
 
-Schlafplätze sind auch genügend vorhanden!
+          <p>Schlafplätze sind auch genügend vorhanden!</p>
 
-Es gibt einen Pool, also Badesachen nicht vergessen!
+          <p>Es gibt einen Pool, also Badesachen nicht vergessen!</p>
 
-Bitte keine Geschenke mitbringen, eure Anwesenheit ist Geschenk genug &lt;3
-Verpflegung
-Zur Verpflegung gibt es Burger vom Grill und Cocktails. Ihr könnt auch Sachen zum Grillen mitnehmen, wie z.B. Würste oder Spare Ribs. Aber bitte schreibt es vorher in die Gruppe und sprecht euch ab, damit wir am Ende nicht zu viel haben und nichts verschwenden.
+          <p>Bitte keine Geschenke mitbringen, eure Anwesenheit ist Geschenk genug &lt;3</p>
 
-Smash Bros Turnier
-Das Highlight des Tages wird das große Turnier der Kampfkünste in Smash Brothers!
-Crew Battle Modus
-Es wird Smash Bros Ultimate für die Nintendo Switch gespielt, und zwar ein Turnier in einem Crew Battle Modus. Eine Crew besteht aus 3 Spielern. In einem Crew Battle werden 2 1vs1 Spiele und 2 2vs2 Spiele ausgetragen, also insgesamt 4 Spiele pro Crew Battle. Der Spieler einer Crew, welcher nicht in einem der beiden 1v1 Spiele gesetzt wird, muss in beiden 2vs2 Spielen gesetzt werden. Das bedeutet, dass jeder Spieler in 2 Spielen pro Crew Battle spielt. Vor einem Match muss jede Crew ihre Aufstellung festlegen, diese kann aber für jedes Match anders sein. Falls ein Match 2-2 endet, kommt es zu einem Tiebreaker. 
+          <h2>Verpflegung</h2>
 
-Im Tiebreaker wird eine Runde Apfelsaft-Pong gespielt, wobei es nur einen Becher pro Team gibt und der erste Treffer das Spiel entscheidet. Um zu entscheiden, wer anfängt zu werfen, wird Schere-Stein-Papier auf zwei Unterschied gespielt. Die Spieler einer Crew müssen sich beim Werfen abwechseln. 
+          <p>Zur Verpflegung gibt es Burger vom Grill und Cocktails. Ihr könnt auch Sachen zum Grillen mitnehmen, wie z.B. Würste oder Spare Ribs. Aber bitte schreibt es vorher in die Gruppe und sprecht euch ab, damit wir am Ende nicht zu viel haben und nichts verschwenden.</p>
 
-Das Turnier wird in einem Double Elimination Bracket ausgetragen. Das heißt, wenn man ein Match verliert, hat man noch die Chance, in einem Loser’s Bracket weiterzuspielen und so bis ins Finale zu kommen. Das Finalteilnehmer-Team, welches aus dem Loser’s Bracket kommt, muss zwei Matches gegen den Finalteilnehmer aus dem Winner Bracket gewinnen, um das Turnier zu gewinnen. 
-Handicap
-Um schwächeren Spielern eine Chance zu geben und die Matches spannender zu machen, gibt es ein Handicap-System. Die Spieler werden in eine Tier List eingeteilt. Der stärkere Spieler muss sich am Anfang des Spiels ein oder mehrmals umbringen (nicht im real life ;-) ) ohne dem Gegner schaden zu machen, also quasi ein oder zwei Leben Vorsprung geben. Die Anzahl der Leben wird durch die Differenz der Spieler in der Tier List bestimmt. Beispiel: Ein High Tier(Tier 3) Spieler spielt gegen einen Low Tier(Tier 1) Spieler, der High Tier Spieler muss 2 Leben(3-1) opfern. Im 2vs2 gilt dies auch, Beispiel: Ein High Tier und ein Mid Tier Spieler spielen gegen einen Mid Tier und einen Low Tier: ersteres Team muss 2 = (3+2) - (2+1) Leben opfern. Das stärkere Team darf sich aussuchen, ob ein Spieler beide oder jeder Spieler eines opfert. Nach dem Opfern beginnt das Spiel sofort, das heißt, die Unverwundbarkeit nach dem Respawn darf ausgenutzt werden.
-Settings
-Es ist ein Regelwerk mit dem Namen “Turnier” erstellt:
-Stocks: 3
-Match Time Limit: 15 min
-Friendly Fire: On
-Items: Low
-Stage Hazards: On
-Stage Pick: Random
 
-Also wie von Sakurai intended! ;&);
-PS: Es sind aber nicht alle Items und auch nicht alle Stages aktiviert. Da man die Item-Wahrscheinlichkeit nicht pro Item spezifisch einstellen kann, habe ich mich dazu entschieden, Smash Balls und Assist Trophys zu deaktivieren. 🥲
-Tier List
+          <h2>Smash Bros Turnier</h2>
+            Das Highlight des Tages wird das große Turnier der Kampfkünste in Smash Brothers!
+          <h3>Crew Battle Modus</h3>
+          <p>Es wird Smash Bros Ultimate für die Nintendo Switch gespielt, und zwar ein Turnier in einem Crew Battle Modus. Eine Crew besteht aus 3 Spielern. In einem Crew Battle werden 2 1vs1 Spiele und 2 2vs2 Spiele ausgetragen, also insgesamt 4 Spiele pro Crew Battle. Der Spieler einer Crew, welcher nicht in einem der beiden 1v1 Spiele gesetzt wird, muss in beiden 2vs2 Spielen gesetzt werden. Das bedeutet, dass jeder Spieler in 2 Spielen pro Crew Battle spielt. Vor einem Match muss jede Crew ihre Aufstellung festlegen, diese kann aber für jedes Match anders sein. Falls ein Match 2-2 endet, kommt es zu einem Tiebreaker.</p>
 
-        </p>
+          <p>Im Tiebreaker wird eine Runde Apfelsaft-Pong gespielt, wobei es nur einen Becher pro Team gibt und der erste Treffer das Spiel entscheidet. Um zu entscheiden, wer anfängt zu werfen, wird Schere-Stein-Papier auf zwei Unterschied gespielt. Die Spieler einer Crew müssen sich beim Werfen abwechseln.</p>
+
+          <p>Das Turnier wird in einem Double Elimination Bracket ausgetragen. Das heißt, wenn man ein Match verliert, hat man noch die Chance, in einem Loser’s Bracket weiterzuspielen und so bis ins Finale zu kommen. Das Finalteilnehmer-Team, welches aus dem Loser’s Bracket kommt, muss zwei Matches gegen den Finalteilnehmer aus dem Winner Bracket gewinnen, um das Turnier zu gewinnen.</p>
+          <h3>Handicap</h3>
+          <p>Um schwächeren Spielern eine Chance zu geben und die Matches spannender zu machen, gibt es ein Handicap-System. Die Spieler werden in eine Tier List eingeteilt. Der stärkere Spieler muss sich am Anfang des Spiels ein oder mehrmals umbringen (nicht im real life ;-) ) ohne dem Gegner schaden zu machen, also quasi ein oder zwei Leben Vorsprung geben. Die Anzahl der Leben wird durch die Differenz der Spieler in der Tier List bestimmt. Beispiel: Ein High Tier(Tier 3) Spieler spielt gegen einen Low Tier(Tier 1) Spieler, der High Tier Spieler muss 2 Leben(3-1) opfern. Im 2vs2 gilt dies auch, Beispiel: Ein High Tier und ein Mid Tier Spieler spielen gegen einen Mid Tier und einen Low Tier: ersteres Team muss 2 = (3+2) - (2+1) Leben opfern. Das stärkere Team darf sich aussuchen, ob ein Spieler beide oder jeder Spieler eines opfert. Nach dem Opfern beginnt das Spiel sofort, das heißt, die Unverwundbarkeit nach dem Respawn darf ausgenutzt werden.</p>
+          <h3>Settings</h3>
+          <p>Es ist ein Regelwerk mit dem Namen “Turnier” erstellt:</p>
+          <p>Stocks: 3</p>
+          <p>Match Time Limit: 15 min</p>
+          <p>Friendly Fire: On</p>
+          <p>Items: Low</p>
+          <p>Stage Hazards: On</p>
+          <p>Stage Pick: Random</p>
+
+          <p>Also wie von Sakurai intended! ;&);</p>
+
+          <p>PS: Es sind aber nicht alle Items und auch nicht alle Stages aktiviert. Da man die Item-Wahrscheinlichkeit nicht pro Item spezifisch einstellen kann, habe ich mich dazu entschieden, Smash Balls und Assist Trophys zu deaktivieren. 🥲</p>
+
+          <h3>Tier List</h3>
         <Image
-          src="/src/img/tier-list.png"
+          src="/tier-list.png"
           alt="shows 3 tiers with different players for a tierlist in the smashbrothers tournament"
           width={400}
           height={500}
