@@ -27,8 +27,8 @@ export default function Home() {
         </p>
 
         <p>
-          Erreichbar mit der Bahn (S2, S7, REX) über die Station Neubau-Kreuzstetten. Vom Bahnhof ist es aber noch
-          ein ziemlich weiter Fußweg, deshalb am besten mit einem Auto vom Bahnhof abholen lassen beziehungsweise
+          Erreichbar mit der Bahn (S2, S7, REX) Richtung Mistelbach. Vom Bahnhof ist es aber noch
+          ein Fußweg (ca 15-20 Minuten), deshalb am besten mit einem Auto vom Bahnhof abholen lassen beziehungsweise
           generell Fahrgemeinschaften bilden!
         </p>
 
