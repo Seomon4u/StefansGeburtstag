@@ -73,8 +73,7 @@ export default function Home() {
           width={1377}
           height={546}
         />
-<iframe src="https://challonge.com/de/m6k5bxjz/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
-        
+<iframe src="https://challonge.com/de/m6k5bxjz/module" width="100%" height="500" frameborder="0" scrolling="auto"></iframe>        
       </main>
     </div>
   );
