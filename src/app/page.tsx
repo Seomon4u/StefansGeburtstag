@@ -87,8 +87,10 @@ export default function Home() {
           quasi ein oder zwei Leben Vorsprung geben. Die Anzahl der Leben wird durch die Differenz der Spieler in
           der Tier List bestimmt. Beispiel: Ein S Tier(Tier 4) Spieler spielt gegen einen B Tier(Tier 2) Spieler,
           der High Tier Spieler muss 2 Leben(4-2) opfern. Im 2vs2 gilt dies auch, Beispiel: Ein S Tier und ein A
-          Tier Spieler spielen gegen einen B Tier und einen C Tier: ersteres Team muss insgesamt 4 = (4+3) - (2+1) Leben opfern.
-          Nach dem Opfern beginnt das Spiel sofort, das heißt, die Unverwundbarkeit nach dem Respawn darf ausgenutzt werden.
+          Tier Spieler spielen gegen einen B Tier und einen C Tier: ersteres Team muss insgesamt 4 = (4+3) - (2+1) Leben
+          opfern.
+          Nach dem Opfern beginnt das Spiel sofort, das heißt, die Unverwundbarkeit nach dem Respawn darf ausgenutzt
+          werden.
         </p>
         <h2 className={styles.title2}>Settings</h2>
         <p>
@@ -113,11 +115,12 @@ export default function Home() {
 
         <h2 className={styles.title2}>Tier List</h2>
         <Image className={styles.img}
-            src="/TierListVers3.png"
-            alt="shows 3 tiers with different players for a tierlist in the smashbrothers tournament"
-            width={1044}
-            height={505}
+               src="/TierListVers4.png"
+               alt="shows 3 tiers with different players for a tierlist in the smashbrothers tournament"
+               width={1044}
+               height={505}
         />
+        <h2 className={styles.title2}>Turnierbaum</h2>
         <iframe src="https://challonge.com/de/m6k5bxjz/module" width="100%" height="500"></iframe>
       </main>
     </div>
